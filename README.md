@@ -9,7 +9,7 @@ npm install libo2020-ui
 
 ## usage
 ```
-import liUi from 'li-ui'
+import liUi from 'libo2020-ui'
 import 'li-ui/dist/li-ui.css'
 Vue.use(liUi)
 ```

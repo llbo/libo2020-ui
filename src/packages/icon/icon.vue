@@ -1,11 +1,11 @@
 <template>
   <svg class="icon" aria-hidden="true">
-      <use :xlink:href="`#icon-${icon}`"></use>
+    <use :xlink:href="`#icon-${icon}`" />
   </svg>
 </template>
 
 <script>
-import '../styles/icon'
+import '../../styles/icon'
 export default {
   name: 'li-icon',
   props: {
