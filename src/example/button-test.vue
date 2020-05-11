@@ -7,6 +7,10 @@
     <li-button class="li_button" type="info">信息按钮</li-button>
     <!-- 点击事件 -->
     <li-button type="success" @click="fn">触发事件</li-button>
+    <li-row justify='center'>
+      <li-col :span='4'><li-button class="li_button" type="info">信息按钮</li-button></li-col>
+      <li-col :span='4'><li-button class="li_button" type="success">成功按钮</li-button></li-col>
+    </li-row>
   </div>
 </template>
 
