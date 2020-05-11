@@ -64,19 +64,21 @@ export default {
 </script>
 
 <style lang='scss'>
-@import "../../styles/_var.scss";
+@import "../../styles/var-li.scss";
 $height: 42px;
 $font-size: 16px;
-$color: #606266;
-$border-color: #dcdfe6;
-$background: #ecf5ff;
-$active-color: #3a8ee6;
+$color: #323233;
+$border-color: #dcdee0;
+$background: #fff;
+$active-color: #323233;
 .li-button {
+  background-color: $background;
   border-radius: $border-radius;
   border: 1px solid $border-color;
   height: $height;
   line-height: 1;
   font-size: $font-size;
+  width: 100%;
   padding: 12px 20px;
   display: inline-flex;
   justify-content: center;
@@ -89,8 +91,8 @@ $active-color: #3a8ee6;
   &:focus,
   &:active {
     color: $active-color;
-    border: 1px solid $active-color;
-    background-color: $background;
+    border: 1px solid #dcdee0;
+    background-color: #eaeaea;
     outline: none;
   }
   @each $type,

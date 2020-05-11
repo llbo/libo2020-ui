@@ -1,0 +1,33 @@
+$border-radius: 4px;
+
+$primary: #F02C38;
+$success: #67C23A;
+$warning: #E6A23C;
+$danger: #F02C38;
+$info: #E4E4E4;
+
+
+$primary-hover: #D12631;
+$success-hover: #85ce61;
+$warning-hover: #ebb563;
+$danger-hover: #D12631;
+$info-hover: #E4E4E4;
+
+$primary-active: #D12631;
+$success-active: #5daf34;
+$warning-active: #cf9236;
+$danger-active: #D12631;
+$info-active: #E4E4E4;
+
+$primary-bg-color: #F02C38;
+$primary-bg-disabled-color: #E4E4E4;
+$default-bg-color: #fff;
+$default-bg-disabled-color: #fff;
+$default-border-color: #DCDEE0;
+$default-disabled-color: #C8C9CC;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

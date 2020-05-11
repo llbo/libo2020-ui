@@ -1,8 +1,12 @@
 <template>
   <section class="page_demo">
-    <div class="list" v-for="(group, index) in navs" :key="group+index">
-      <router-link class="list_a" v-if="group.name!=='demos'" :to="group.path">{{group.name}}</router-link>
-    </div>
+    <div
+      class="list"
+      v-show="group.name!=='demos'"
+      v-for="(group, index) in navs"
+      @click="$router.push(group.path)"
+      :key="group+index"
+    >{{group.name}}</div>
   </section>
 </template>
 
@@ -11,7 +15,6 @@
   padding-bottom: 50px;
   width: 100%;
   text-align: center;
-  margin-top: -8px;
 }
 .list {
   padding: 6px 0;

@@ -1,10 +1,10 @@
 // 所有组件的入口
-import Button from './button/button.vue'
+import ButtonLi from './button-li/button-li.vue'
 import Icon from './icon/icon.vue'
-import ButtonGroup from './button/button-group.vue'
+import ButtonGroup from './button-li/button-group.vue'
 
 const install = (Vue) => {
-  Vue.component(Button.name, Button)
+  Vue.component(ButtonLi.name, ButtonLi)
   Vue.component(Icon.name, Icon)
   Vue.component(ButtonGroup.name, ButtonGroup)
 }
